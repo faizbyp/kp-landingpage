@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+
+:root {
+    --biru: #01164F;
+    --kuning: #F9D63E;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: var(--biru);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header#hero {
+    background-image: url(img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    background: var(--kuning);
+}
+
+.fs-1 {
+    /* Mengubah ukuran fs-1 */
+    font-size: 40pt !important;
+}
+
+#nav-cta {
+    color: var(--biru);
+    font-weight: bold;
+}
+
+.judul-hero {
+    color: white;
+}
+
+mark {
+    background-color: transparent;
+    color: var(--kuning);
+    padding: 0;
+}
+
+.card {
+    color: black;
+    border-radius: 0;
+    border-width: 0;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+footer {
+    background-color: white;
+    color: var(--biru);
+}
